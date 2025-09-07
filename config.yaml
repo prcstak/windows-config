@@ -113,23 +113,23 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - commands: ["focus --direction left"]
-    bindings: ["alt+h", "alt+left"]
+    bindings: ["alt+a", "alt+left"]
   - commands: ["focus --direction right"]
-    bindings: ["alt+l", "alt+right"]
+    bindings: ["alt+d", "alt+right"]
   - commands: ["focus --direction up"]
-    bindings: ["alt+k", "alt+up"]
+    bindings: ["alt+w", "alt+up"]
   - commands: ["focus --direction down"]
-    bindings: ["alt+j", "alt+down"]
+    bindings: ["alt+s", "alt+down"]
   - commands: ["move --direction left"]
     # Move focused window in a given direction.
 
-    bindings: ["alt+shift+h", "alt+shift+left"]
+    bindings: ["alt+shift+a", "alt+shift+left"]
   - commands: ["move --direction right"]
-    bindings: ["alt+shift+l", "alt+shift+right"]
+    bindings: ["alt+shift+d", "alt+shift+right"]
   - commands: ["move --direction up"]
-    bindings: ["alt+shift+k", "alt+shift+up"]
+    bindings: ["alt+shift+w", "alt+shift+up"]
   - commands: ["move --direction down"]
-    bindings: ["alt+shift+j", "alt+shift+down"]
+    bindings: ["alt+shift+s", "alt+shift+down"]
   - commands: ["resize --width -2%"]
     # Resize focused window by a percentage or pixel amount.
 
@@ -199,13 +199,13 @@ keybindings:
   - commands: ["focus --next-workspace"]
     # Focus the next/previous workspace defined in `workspaces` config.
 
-    bindings: ["alt+s"]
+    bindings: ["alt+l"]
   - commands: ["focus --prev-workspace"]
-    bindings: ["alt+a"]
+    bindings: ["alt+h"]
   - commands: ["focus --recent-workspace"]
     # Focus the workspace that last had focus.
 
-    bindings: ["alt+d"]
+    bindings: ["alt+e"]
   - commands: ["focus --workspace 1"]
     # Change focus to a workspace defined in `workspaces` config.
 
@@ -230,13 +230,13 @@ keybindings:
     # Move the focused window's parent workspace to a monitor in a given
 
     # direction.
-    bindings: ["alt+shift+a"]
+    bindings: ["alt+shift+h"]
   - commands: ["move-workspace --direction right"]
-    bindings: ["alt+shift+f"]
+    bindings: ["alt+shift+l"]
   - commands: ["move-workspace --direction up"]
-    bindings: ["alt+shift+d"]
+    bindings: ["alt+shift+k"]
   - commands: ["move-workspace --direction down"]
-    bindings: ["alt+shift+s"]
+    bindings: ["alt+shift+j"]
   - commands: ["move --workspace 1", "focus --workspace 1"]
     # Move focused window to a workspace defined in `workspaces` config.
 

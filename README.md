@@ -1,3 +1,4 @@
+vimichael/make-windows-pretty
 # My Windows Config
 
 # My Terminal Setup
